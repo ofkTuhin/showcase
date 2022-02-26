@@ -82,6 +82,7 @@ export default function Home({ post }) {
             posts={posts}
             handleFilter={handleFilter}
             select={select}
+            themeName={theme}
           ></ThemeData>
           <MainPage post={posts}></MainPage>
         </div>

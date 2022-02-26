@@ -47,7 +47,7 @@ const InputData = () => {
     if (image != " ") {
       try {
         const res = await fetch(
-          "https://glacial-lake-15784.herokuapp.com/post/",
+          "https://glacial-lake-15784.herokuapp.com//post/",
           {
             method: "POST",
             headers: {
