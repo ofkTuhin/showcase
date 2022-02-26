@@ -52,6 +52,7 @@ const InputData = () => {
             method: "POST",
             headers: {
               "Content-type": "application/json ",
+              "Upgrade-Insecure-Requests": 1,
             },
             body: JSON.stringify(event),
           }
