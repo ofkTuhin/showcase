@@ -16,8 +16,7 @@ const ThemeData = ({ posts, handleFilter, select }) => {
           ) : (
             <option value="all">All</option>
           )}
-          <option value="8">7 days</option>
-          <option value="2">2 days</option>
+          <option value="7">7 days</option>
         </select>
       </div>
     </div>

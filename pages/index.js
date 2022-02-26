@@ -62,10 +62,15 @@ export default function Home({ post }) {
       (d) => currentDate - new Date(d.updateDate).getDate() <= e
     );
     if (e == "all") {
-      setPosts(filter);
+      if (filter.length) {
+        setPosts(filter);
+      } else {
+        setPosts(post);
+      }
     } else {
       setPosts(dateFilter);
     }
+    console.log(posts);
   };
 
   return (
